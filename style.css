@@ -1,0 +1,26 @@
+
+body{
+  background-image: url("https://www.surfertoday.com/images/wallpapers/surfingwallpaper5.jpg");
+  font-family: 'Noto', sans-serif;
+  color:ghostwhite;
+  margin: 10px 50px 10px 50px;
+}
+
+
+h1{
+  font-family: 'Slabo', sans-serif;
+}
+h2{
+  font-family: 'Noto', sans-serif;
+}
+
+.column {
+  float: left;
+  width: 22.3%;
+  padding: 15px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
